@@ -4,9 +4,9 @@ function monoB()
 	var checkB = document.getElementById("mono_b");
 
 	if(checkB.checked)
-		img.innerHTML = '<img src="img/feliz.jpg">';
+		img.innerHTML = '<img src="img/feliz.jpg" width="40%">';
 	else
-		img.innerHTML = '<img src="img/triste.jpg">';
+		img.innerHTML = '<img src="img/triste.jpg" width="50%">';
 }
 function monoA()
 {
@@ -15,9 +15,9 @@ function monoA()
 
 	if(checkA.checked)
 	{
-		img.innerHTML = '<img class="imagen" src="img/feliz.jpg">';
+		img.innerHTML = '<img class="imagen" src="img/feliz.jpg" width="40%">';
 	}else{
-		img.innerHTML = '<img src="img/triste.jpg">';
+		img.innerHTML = '<img src="img/triste.jpg" width="50%">';
 	}
 }
 
